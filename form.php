@@ -82,9 +82,9 @@
                     </div>
                 </div>
                 <div class='col-2'>
-                    <div class='panel'>
+<!--                    <div class='panel'>-->
                         <div class='panel-head'>
-                            <h4>Default Form</h4>
+                            <h5>Default Form</h5>
                             <p>Penjelasan</p>  
                         </div>
                         <div class='panel-body'>
@@ -97,9 +97,10 @@
                             <p>untuk lebih detailnya, klik:</p> <a class='button button-red open-code' data-target='code-default-form'>lihat source-code</a>
                             <pre class='show-code'><code></code></pre>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
+            <div class='divider'></div>
             <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
@@ -118,17 +119,18 @@
                     </div>
                 </div>
                 <div class='col-2'>
-                    <div class='panel'>
+<!--                    <div class='panel'>-->
                         <div class='panel-head'>
-                            <h4>Inline Form</h4>
+                            <h5>Inline Form</h5>
                             <p>Penjelasan</p>  
                         </div>
                         <div class='panel-body'>
                             <p>tambahkan class <code>inline</code> pada tag <code>&lt;div class="input-row">..&lt;/div></code></p>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
+            <div class='divider'></div>
             <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
@@ -175,9 +177,9 @@
                     </div>
                 </div>
                 <div class='col-2'>
-                    <div class='panel'>
+<!--                    <div class='panel'>-->
                         <div class='panel-head'>
-                            <h4>Radio &amp; Checkbox</h4>
+                            <h5>Radio &amp; Checkbox</h5>
                             <p>Penjelasan</p>  
                         </div>
                         <div class='panel-body'>
@@ -188,9 +190,10 @@
                             <p>untuk lebih detailnya, klik:</p> <a class='button button-red open-code' data-target='code-radio-checkbox'>lihat source-code</a>
                             <pre class='show-code'><code></code></pre>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
+            <div class='divider'></div>
             <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
@@ -212,9 +215,9 @@
                     </div>
                 </div>
                 <div class='col-2'>
-                    <div class='panel'>
+<!--                    <div class='panel'>-->
                         <div class='panel-head'>
-                            <h4>File Input</h4>
+                            <h5>File Input</h5>
                             <p>Format pemakaian</p>  
                         </div>
                         <div class='panel-body'>
@@ -227,9 +230,10 @@
     &lt;/div>
 &lt;/div></code></pre>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
+            <div class='divider'></div>
             <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
@@ -255,9 +259,9 @@
                     </div>
                 </div>
                 <div class='col-2'>
-                    <div class='panel'>
+<!--                    <div class='panel'>-->
                         <div class='panel-head'>
-                            <h4>Existing File Input</h4>
+                            <h5>Existing File Input</h5>
                             <p>Format pemakaian</p>  
                         </div>
                         <div class='panel-body'>
@@ -274,9 +278,10 @@
     &lt;/div>
 &lt;/div></code></pre>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
+            <div class='divider'></div>
             <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
@@ -295,17 +300,18 @@
                     </div>
                 </div>
                 <div class='col-2'>
-                    <div class='panel'>
+<!--                    <div class='panel'>-->
                         <div class='panel-head'>
-                            <h4>Date Picker</h4>
+                            <h5>Date Picker</h5>
                             <p>Format penulisan</p>  
                         </div>
                         <div class='panel-body'>
                             <p><code>&lt;input type='text' class='datepicker'/></code></p>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
+            <div class='divider'></div>
             <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
@@ -324,15 +330,15 @@
                     </div>
                 </div>
                 <div class='col-2'>
-                    <div class='panel'>
+<!--                    <div class='panel'>-->
                         <div class='panel-head'>
-                            <h4>Input With Error</h4>
+                            <h5>Input With Error</h5>
                             <p>Format penulisan</p>  
                         </div>
                         <div class='panel-body'>
                             <p><code>&lt;input type='text' class='form-error' title='form ini tidak boleh kosong'/></code></p>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
             
