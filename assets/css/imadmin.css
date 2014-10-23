@@ -1456,6 +1456,8 @@ main.hide {
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
 table th {
@@ -1471,10 +1473,11 @@ table th {
 
 table tr {
     border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
 }
 
 table tr:nth-child(odd) {
-    background-color: #f9f9f9;
+    background-color: #f3f3f3;
 }
 
 table tr:last-child {
@@ -1504,30 +1507,10 @@ table .action {
     white-space: nowrap;
 }
 
-table .action i.fa {
-    min-width: 20px;
-    line-height: 30px;
+table td a.button {
+    margin-top: -5px;
+    margin-bottom: -5px;
     text-align: center;
-}
-
-table .action a {
-    line-height: 36px;
-    font-size: 10pt;
-    height: 36px;
-    display: inline-block;
-    padding: 0 10px;
-    opacity: 0.2;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-}
-
-table tr:hover .action a {
-    opacity: 1;
-}
-
-table .action a:hover {
-    background-color: #f7fbfe;
-    color: #2f9fe0;
 }
 
 table .paddingless {
@@ -1563,26 +1546,6 @@ table.table-green th {
 table.table-yellow th {
     background-color: #f6bb42;
     color: #fff;
-}
-
-table.table-blue .action a:hover {
-    background-color: #f7fbfe;
-    color: #2f9fe0;
-}
-
-table.table-red .action a:hover {
-    background-color: #f7fbfe;
-    color: #da4453;
-}
-
-table.table-green .action a:hover {
-    background-color: #f7fbfe;
-    color: #8cc152;
-}
-
-table.table-yellow .action a:hover {
-    background-color: #f7fbfe;
-    color: #f6bb42;
 }
 /*=== TABLE end ===*/
 
