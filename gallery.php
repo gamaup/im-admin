@@ -35,9 +35,9 @@
                     <div class='gallery-image' style='background-image: url(assets/images/bg1.jpg)'>
                     </div>
                     <div class='gallery-tools'>
-                        <i class='fa fa-eye'></i>
-                        <i class='fa fa-pencil'></i>
-                        <i class='fa fa-trash-o'></i>
+                        <i class='fa fa-eye tipt' title="View"></i>
+                        <i class='fa fa-pencil tipt' title="Edit"></i>
+                        <i class='fa fa-trash-o tipt' title="Delete"></i>
                     </div>
                 </div>
                 <div class='gallery-item'>
@@ -47,9 +47,9 @@
                     <div class='gallery-image' style='background-image: url(assets/images/bg2.jpg)'>
                     </div>
                     <div class='gallery-tools'>
-                        <i class='fa fa-eye'></i>
-                        <i class='fa fa-pencil'></i>
-                        <i class='fa fa-trash-o'></i>
+                        <i class='fa fa-eye tipt' title="View"></i>
+                        <i class='fa fa-pencil tipt' title="Edit"></i>
+                        <i class='fa fa-trash-o tipt' title="Delete"></i>
                     </div>
                 </div>
                 <div class='gallery-item'>

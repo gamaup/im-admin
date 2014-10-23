@@ -38,6 +38,10 @@ $(document).ready(function() {
             $(this).parent().find('input:text').val(isi);
         });
     });
+    $('.input-file-exist > h4').click(function() {
+        $(this).parent().parent().removeClass('file-exist');
+        $(this).parent().parent().find('input[type="text"]').click();
+    });
     $('.datepicker').datepicker();
     $('.spinner').spinner();
 
@@ -91,4 +95,32 @@ $(document).ready(function() {
         tooltipClass: 'tipl',
         position: { my: 'right center', at: 'left-6 center' }
     });
+    
+    //FORM VALIDATION
+    $('.form-error').tooltip({
+        tooltipClass: 'form-error',
+        position: { my: 'left top', at: 'left bottom+6' }
+    });
+    $('input.form-error').keypress(function() {
+        $(this).removeAttr('title');
+        $(this).tooltip('destroy');
+        $(this).removeClass('form-error');
+    });
+    
+    //KHUSUS DEMO
+    $('a.open-code').click(function() {
+        var target= $(this).attr('data-target');
+        $(this).parent().find('pre.show-code code').text($('.'+target).html());
+        $(this).parent().find('pre.show-code').toggle();
+//        $('.'+target).wrapInner("<pre><code></code></pre>");
+//        $(this).addClass('close-code');
+//        $(this).removeClass('open-code');
+    });
+//    $('a.close-code').click(function() {
+//        var target= $(this).attr('data-target');
+//        $('.'+target).html( $('.'+target).text() );
+//        //$('.'+target).wrapInner("<pre><code></code></pre>");
+//        $(this).removeClass('close-code');
+//        $(this).addClass('open-code');
+//    });
 });
