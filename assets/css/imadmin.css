@@ -1031,25 +1031,10 @@ main.hide {
     }
 }
 
-.hidden-col {
-    position: relative;
-}
-
-.hidden-col .pushed {
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-}
-
-.hidden-col .hide {
-    position: absolute;
-    right: 0;
-    display: none;
-}
-
-.hidden-col.active .hide {
-    position: absolute;
-    right: 0;
-    transform: translateX(0);
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 10px 0;
 }
 /*=== PAGE end ===*/
 
@@ -1465,7 +1450,7 @@ table th {
     font-family: 'OpenSans-Semibold';
     font-weight: normal;
     color: #444;
-    background-color: #f0f0f0;
+    background-color: #e5e5e5 !important;
     font-size: 10pt;
     padding: 10px 8px;
     text-transform: uppercase;
@@ -1474,6 +1459,22 @@ table th {
 table tr {
     border-bottom: 1px solid #e5e5e5;
     background-color: #fff;
+}
+
+table.table-red tr {
+    border-bottom: 1px solid #f8dadd;
+}
+
+table.table-blue tr {
+    border-bottom: 1px solid #d5ecf9;
+}
+
+table.table-green tr {
+    border-bottom: 1px solid #e5f1d9;
+}
+
+table.table-yellow tr {
+    border-bottom: 1px solid #fdf0d4;
 }
 
 table tr:nth-child(odd) {
@@ -1500,11 +1501,8 @@ table .center {
     text-align: center;
 }
 
-table .action {
-    padding: 0px;
-    width: 1%;
-    font-size: 0;
-    white-space: nowrap;
+table td a:not(.button) {
+    color: #2f9fe0;
 }
 
 table td a.button {
@@ -1522,6 +1520,26 @@ table.bordered td {
     border-right: 1px solid #e5e5e5;
 }
 
+table.bordered.table-red th,
+table.bordered.table-red td {
+    border-right: 1px solid #f8dadd;
+}
+
+table.bordered.table-blue th,
+table.bordered.table-blule td {
+    border-right: 1px solid #d5ecf9;
+}
+
+table.bordered.table-green th,
+table.bordered.table-green td {
+    border-right: 1px solid #e5f1d9;
+}
+
+table.bordered.table-yellow th,
+table.bordered.table-yellow td {
+    border-right: 1px solid #fdf0d4;
+}
+
 table.bordered th:last-child,
 table.bordered td:last-child {
     border-right: 0;
@@ -1529,23 +1547,55 @@ table.bordered td:last-child {
 
 /*table color*/
 table.table-blue th {
-    background-color: #2f9fe0;
+    background-color: #2f9fe0 !important;
     color: #fff;
 }
 
 table.table-red th {
-    background-color: #da4453;
+    background-color: #da4453 !important;
     color: #fff;
 }
 
 table.table-green th {
-    background-color: #8cc152;
+    background-color: #8cc152 !important;
     color: #fff;
 }
 
 table.table-yellow th {
-    background-color: #f6bb42;
+    background-color: #f6bb42 !important;
     color: #fff;
+}
+
+table.table-red tr:nth-child(odd) {
+    background-color: rgba(218,68,83,0.08);
+}
+
+table.table-blue tr:nth-child(odd) {
+    background-color: rgba(47,159,224,0.08);
+}
+
+table.table-green tr:nth-child(odd) {
+    background-color: rgba(140,193,82,0.08);
+}
+
+table.table-yellow tr:nth-child(odd) {
+    background-color: rgba(246,187,66,0.08);
+}
+
+table.table-blue td a:not(.button) {
+    color: #2093d6;
+}
+
+table.table-green td a:not(.button) {
+    color: #4c890a;
+}
+
+table.table-red td a:not(.button) {
+    color: #d62f3f;
+}
+
+table.table-yellow td a:not(.button) {
+    color: #c48402;
 }
 /*=== TABLE end ===*/
 

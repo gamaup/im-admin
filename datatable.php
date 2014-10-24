@@ -18,178 +18,175 @@
         <main>
             <div class='page-header'>
                 <div class='page-info'>
-                    <h3>DataTables</h3>
-                    <h5>Contoh tampilan table menggunakan plugin DataTables</h5>
-                </div>
-                <div class='page-action'>
-                    <a href='#' class='button button-blue'><i class="fa fa-thumb-tack"></i> Tambah Data</a>
+                    <h3>DataTable</h3>
+                    <h5>Contoh tampilan table menggunakan plugin DataTable</h5>
                 </div>
             </div>
             <div class='breadcrumb'>
                 <a href='#'>Dashboard</a><i class="fa fa-angle-right"></i><a href='#'>Table</a><i class="fa fa-angle-right"></i>DataTable
             </div>
             <div class='row'>
-                <div class='col-4'>
+                <div class='col-3'>
                     <div class='panel'>
                         <div class='panel-head'>
-                            <h5>Table With Action</h5>
-                            <div class='panel-action'>
-                                <a href='#'><i class="fa panel-expand"></i></a>
-                            </div>
+                            <h5>DataTable</h5>
                         </div>
                         <div class='panel-body'>
-                            <table id='datatables' class='bordered'>
+                            <table class='datatable bordered table-green'>
                                 <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Nama</th>
-                                        <th>NIM</th>
-                                        <th>Alamat</th>
-                                        <th>Action</th>
+                                        <th>Name</th>
+                                        <th>House</th>
+                                        <th>Fort</th>
+                                        <th class='nosort'>Status</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Jon Snow</td>
-                                        <td>11523999</td>
-                                        <td>Jogja</td>
-                                        <td class='action'>
-                                            <div class='action-set'>
-                                            <a href='#'><i class="fa fa-eye"></i>View</a>
-                                            <a href='#'><i class="fa fa-download"></i>Download</a>
-                                            <a href='#'><i class="fa fa-trash-o"></i>Delete</a>
-                                            </div>
-                                        </td>
+                                        <td><a href='#'>Jon Snow</a></td>
+                                        <td>Night Watch</td>
+                                        <td>The Wall</td>
+                                        <td>Alive</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
                                         <td>Daenerys Targaryen</td>
-                                        <td>11523888</td>
-                                        <td>Sleman</td>
-                                        <td class='action'>
-                                            <a href='#'><i class="fa fa-eye"></i>View</a>
-                                            <a href='#'><i class="fa fa-download"></i>Download</a>
-                                            <a href='#'><i class="fa fa-trash-o"></i>Delete</a>
-                                        </td>
+                                        <td>Targaryen</td>
+                                        <td>-</td>
+                                        <td>Alive</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
                                         <td>Tyrion Lannister</td>
-                                        <td>11523777</td>
-                                        <td>Ngemplak</td>
-                                        <td class='action'>
-                                            <a href='#'><i class="fa fa-eye"></i>View</a>
-                                            <a href='#'><i class="fa fa-download"></i>Download</a>
-                                            <a href='#'><i class="fa fa-trash-o"></i>Delete</a>
-                                        </td>
+                                        <td>Lannister</td>
+                                        <td>Kings Landing</td>
+                                        <td>Alive</td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>Hodor</td>
-                                        <td>11523666</td>
-                                        <td>Pamungkas</td>
-                                        <td class='action'>
-                                            <a href='#'><i class="fa fa-eye"></i>View</a>
-                                            <a href='#'><i class="fa fa-download"></i>Download</a>
-                                            <a href='#'><i class="fa fa-trash-o"></i>Delete</a>
-                                        </td>
+                                        <td>Arya Stark</td>
+                                        <td>Stark</td>
+                                        <td>Winterfell</td>
+                                        <td>Alive</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>White Walker</td>
-                                        <td>11523555</td>
-                                        <td>Harjobinangun</td>
-                                        <td class='action'>
-                                            <a href='#'><i class="fa fa-eye"></i>View</a>
-                                            <a href='#'><i class="fa fa-download"></i>Download</a>
-                                            <a href='#'><i class="fa fa-trash-o"></i>Delete</a>
-                                        </td>
+                                        <td>Robb Stark</td>
+                                        <td>Stark</td>
+                                        <td>Winterfell</td>
+                                        <td>Dead</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Eddard Stark</td>
+                                        <td>Stark</td>
+                                        <td>Winterfell</td>
+                                        <td>Dead</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Catelyn Stark</td>
+                                        <td>Tully</td>
+                                        <td>Winterfell</td>
+                                        <td>Dead</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Rickon Stark</td>
+                                        <td>Stark</td>
+                                        <td>Winterfell</td>
+                                        <td>Unknown</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Brandon Stark</td>
+                                        <td>Stark</td>
+                                        <td>Winterfell</td>
+                                        <td>Alive</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Hodor</td>
+                                        <td>-</td>
+                                        <td>Winterfell</td>
+                                        <td>Alive</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Tywin Lannister</td>
+                                        <td>Lannister</td>
+                                        <td>Castelry Rock</td>
+                                        <td>Dead</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Jaime Lannister</td>
+                                        <td>Lannister</td>
+                                        <td>Kings Landing</td>
+                                        <td>Alive</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Theon Greyjoy</td>
+                                        <td>Greyjoy</td>
+                                        <td>Winterfell</td>
+                                        <td>Alive</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Joffrey Baratheon</td>
+                                        <td>Lannister</td>
+                                        <td>Kings Landing</td>
+                                        <td>Dead</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Margaery Tyrell</td>
+                                        <td>Tyrell</td>
+                                        <td>Kings Landing</td>
+                                        <td>Alive</td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <script>
-                                $(document).ready(function() {
-                                    S('table#datatables').DataTable();
-                                });
-                            </script>
                         </div>
                     </div>
                 </div>
-                <div class='col-4'>
-                    <div class='panel'>
-                        <div class='panel-head'>
-                            <h5>Table With Action (Icon)</h5>
-                            <div class='panel-action'>
-                                <a href='#'><i class="fa panel-expand"></i></a>
-                            </div>
-                        </div>
-                        <div class='panel-body'>
-                            <table class='table-red bordered'>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Nama</th>
-                                    <th>NIM</th>
-                                    <th>Alamat</th>
-                                    <th>Action</th>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Jon Snow</td>
-                                    <td>11523999</td>
-                                    <td>Jogja</td>
-                                    <td class='action'>
-                                        <a href='#'><i class="fa fa-eye"></i></a>
-                                        <a href='#'><i class="fa fa-download"></i></a>
-                                        <a href='#'><i class="fa fa-trash-o"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Daenerys Targaryen</td>
-                                    <td>11523888</td>
-                                    <td>Sleman</td>
-                                    <td class='action'>
-                                        <a href='#'><i class="fa fa-eye"></i></a>
-                                        <a href='#'><i class="fa fa-download"></i></a>
-                                        <a href='#'><i class="fa fa-trash-o"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Tyrion Lannister</td>
-                                    <td>11523777</td>
-                                    <td>Ngemplak</td>
-                                    <td class='action'>
-                                        <a href='#'><i class="fa fa-eye"></i></a>
-                                        <a href='#'><i class="fa fa-download"></i></a>
-                                        <a href='#'><i class="fa fa-trash-o"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Hodor</td>
-                                    <td>11523666</td>
-                                    <td>Pamungkas</td>
-                                    <td class='action'>
-                                        <a href='#'><i class="fa fa-eye"></i></a>
-                                        <a href='#'><i class="fa fa-download"></i></a>
-                                        <a href='#'><i class="fa fa-trash-o"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>White Walker</td>
-                                    <td>11523555</td>
-                                    <td>Harjobinangun</td>
-                                    <td class='action'>
-                                        <a href='#'><i class="fa fa-eye"></i></a>
-                                        <a href='#'><i class="fa fa-download"></i></a>
-                                        <a href='#'><i class="fa fa-trash-o"></i></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
+                <div class='col-1'>
+                    <div class='panel-head'>
+                        <h5>Datatable Plugin</h5>
+                        <p>Penjelasan</p>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Datatable adalah sebuah plugin jQuery yang digunakan untuk mengoptimalisasikan tabel standar html. Dimana tabel yang menggunakan plugin ini dapat melakukan sorting, searching, dan lain-lain.</p>
+                        <p>Cara menggunakannya adalah dengan memanggil file-file yang dibutuhkan (.js &amp; .css) dari folder plugin. Lalu tambahkan class <code>datatable</code> pada <code>table</code>.</p>
+                        <p>Format penulisan table juga harus benar. Contoh:</p>
+<pre><code>&lt;table class='datatable'>
+    &lt;thead>
+        &lt;tr>
+            &lt;th>..&lt;/th>
+            &lt;th>..&lt;/th>
+        &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>..&lt;/td>
+            &lt;td>..&lt;/td>
+        &lt;/tr>
+    &lt;/tbody>
+&lt;/table></code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Opsi &amp; Pengaturan</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Untuk men-disable fungsi sorting pada salah satu kolom tertentu, cukup tambahkan class <code>nosort</code> pada <code>th</code> (header kolom).</p>
+                        <p>Untuk men-disable fungsi sorting pada semua kolom, cukup ganti class <code>datatable</code> menjadi <code>datatable-nosort</code> pada <code>table</code>.</p>
                     </div>
                 </div>
             </div>

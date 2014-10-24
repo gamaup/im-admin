@@ -65,9 +65,6 @@ $(document).ready(function() {
         $(this).parent().parent().parent().toggleClass('panel-minimized');
     });
     
-    //DATATABLES
-//    S('#datatables').DataTable();
-    
     //BUTTON
     $('.button-dropdown').click(function() {
         $(this).find('ul').toggle();
@@ -123,4 +120,15 @@ $(document).ready(function() {
 //        $(this).removeClass('close-code');
 //        $(this).addClass('open-code');
 //    });
+    
+    //DATATABLES
+    $('.datatable').DataTable({
+        'aoColumnDefs': [{
+            'bSortable': false,
+            'aTargets': ['nosort']
+        }]
+    });
+    $('.datatable-nosort').DataTable({
+        ordering: false
+    });
 });

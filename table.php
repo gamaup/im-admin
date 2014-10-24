@@ -45,7 +45,7 @@
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>Jon Snow</td>
+                                    <td><a href='#'>Jon Snow</a></td>
                                     <td>11523999</td>
                                     <td>Jogja</td>
                                 </tr>
