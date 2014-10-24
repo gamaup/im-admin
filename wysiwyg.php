@@ -50,9 +50,8 @@
                     </div>
                 </div>
                 <div class='col-1'>
-                    <div class='panel'>
                         <div class='panel-head'>
-                            <h4>CKEditor</h4>
+                            <h5>CKEditor</h5>
                             <p>Penjelasan &amp; Penggunaan</p>
                         </div>
                         <div class='panel-body'>
@@ -62,7 +61,6 @@ CKEDITOR.replace('wysiwyg');
 &lt;/script></code></pre> <p>dibawah tag <code>textarea</code></p>
                             <p>Untuk menggunakan editor yang lebih simple, ganti url script <code>ckeditor</code> dengan <code>ckeditor-simple</code></p>
                         </div>
-                    </div>
                 </div>
             </div>
         </main>
