@@ -7,10 +7,10 @@
                     <h5>Administrator</h5>
                 </div>
                 <div class='opsi'>
-                    <div class='button-dropdown'>
-                        <i class="fa fa-cog"></i>
-                        <ul>
-                            <li class='head'><a>Profile Option</a></li>
+                    <div class='button-group'>
+                        <i class="fa fa-cog dropdown-toggle"></i>
+                        <ul class='dropdown-menu right-pos'>
+                            <li class='head'>Profile Option</li>
                             <li><a href='#'>Profile</a></li>
                             <li><a href='#'>Settings</a></li>
                             <li class='sparator'></li>
@@ -25,7 +25,6 @@
                     <ul class='nav-second'>
                         <li><a href='form.php'>Form Elements</a></li>
                         <li><a href='wysiwyg.php'>WSYIWYG Editor</a></li>
-                        <li><a href='hidden-form.php'>Hidden Form</a></li>
                     </ul>
                 </li>
                 <li class='second active'><a><i class="fa fa-table"></i>Table<i class='fa arrow'></i></a>
@@ -37,6 +36,7 @@
                 <li class='second'><a><i class="fa fa-cogs"></i>UI Elements<i class='fa arrow'></i></a>
                     <ul class='nav-second'>
                         <li><a href='buttons.php'>Buttons</a></li>
+                        <li><a href='dropdown.php'>Dropdown</a></li>
                         <li><a href='popup.php'>Alert and Pop-Up</a></li>
                         <li><a href='list.php'>List</a></li>
                     </ul>

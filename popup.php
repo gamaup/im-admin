@@ -74,6 +74,23 @@
                     </div>
                 </div>
             </div>
+            <div class='row'>
+                <div class='col-2'>
+                    <div class='panel'>
+                        <div class='panel-body padding'>
+                            <a href='tes' class='button button-confirm'>Tes</a>
+                            <a href='tes2' class='button button-confirm'>Tes</a>
+<!--
+                            <div class='simple-confirm'>
+                                <p>Are you sure?</p>
+                                <a href='#' class='button button-red button-icon'><i class="fa fa-check"></i></a>
+                                <a class='button button-red button-icon close-confirm'><i class="fa fa-times"></i></a>
+                            </div>
+-->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 </body>

@@ -27,11 +27,12 @@
                 <a href='#'>Dashboard</a><i class="fa fa-angle-right"></i><a href='#'>UI Elements</a><i class="fa fa-angle-right"></i>Button
             </div>
             <div class='row'>
-                <div class='col-4'>
-                    <div class='panel'>
-                        <div class='panel-body padding'>
-                            Cukup tambahkan class <span class='code'>.button</span> pada setiap element yang ingin dijadikan sebagai button.
-                        </div>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h4>Buttons</h4>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Cukup tambahkan class <span class='code'>.button</span> pada setiap element yang ingin dijadikan sebagai button.</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +40,7 @@
                 <div class='col-2'>
                     <div class='panel'>
                         <div class='panel-head'>
-                            <h4>Buttons Color</h4>
+                            <h5>Button Colors</h5>
                             <p>Warna-warna button yang bisa digunakan</p>
                         </div>
                         <div class='panel-body padding'>
@@ -49,55 +50,35 @@
                             <h5 class='button button-green'>Hijau</h5>
                             <h5 class='button button-yellow'>Kuning</h5>
                         </div>
-                        <div class='panel-footer'>
-                            Tambahkan class <span class='code'>.button-blue</span>, <span class='code'>.button-red</span>, <span class='code'>.button-green</span> ataupun <span class='code'>.button-yellow</span>.
-                        </div>
                     </div>
                 </div>
                 <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Button Color</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Tambahkan class <span class='code'>.button-blue</span>, <span class='code'>.button-red</span>, <span class='code'>.button-green</span> ataupun <span class='code'>.button-yellow</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-2'>
                     <div class='panel'>
                         <div class='panel-head'>
-                            <h4>Button Block</h4>
+                            <h5>Button Block</h5>
                             <p>Tombol dengan lebar 100%</p>
                         </div>
                         <div class='panel-body padding'>
                             <h5 class='button button-blue button-block'>Button Block</h5>
                         </div>
-                        <div class='panel-footer'>
-                            Tambahkan class <span class='code'>.button-block</span>.
-                        </div>
                     </div>
                 </div>
-            </div>
-            <div class='row'>
-                <div class='col-4'>
-                    <div class='panel'>
-                        <div class='panel-head'>
-                            <h4>Button Dropdown Single</h4>
-                            <p>Tombol dengan dropdown</p>
-                        </div>
-                        <div class='panel-body padding'>
-                            <h5 class='button button-dropdown button-blue'>
-                                <a>Dropdown Button</a><i class="fa fa-caret-down"></i>
-                                <ul>
-                                    <li class='head'><a>Dropdown Header</a></li>
-                                    <li><a href='#'>Link 1</a></li>
-                                    <li><a href='#'>Link 2</a></li>
-                                    <li class='sparator'></li>
-                                    <li><a href='#'>Link 3</a></li>
-                                </ul>
-                            </h5>
-                        </div>
-                        <div class='panel-footer'>
-                            Tambahkan class <span class='code'>&lt;h5 class='button button-dropdown'>
-                                &lt;a>Dropdown Button&lt;/a>&lt;i class="fa fa-caret-down">&lt;/i>
-                                &lt;ul>
-                                    &lt;li class='head'>&lt;a>Dropdown Header&lt;/a>&lt;/li>
-                                    &lt;li>&lt;a href='#'>Link 1&lt;/a>&lt;/li>
-                                    &lt;li class='sparator'>&lt;/li>
-                                &lt;/ul>
-                            &lt;/h5></span>.
-                        </div>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Button Block</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Tambahkan class <span class='code'>.button-block</span>.</p>
                     </div>
                 </div>
             </div>
@@ -105,22 +86,8 @@
                 <div class='col-2'>
                     <div class='panel'>
                         <div class='panel-head'>
-                            <h4>Button Disabled</h4>
-                            <p>Tombol yang tidak bisa di-klik</p>
-                        </div>
-                        <div class='panel-body padding'>
-                            <h5 class='button button-red button-disabled'>Disabled Button</h5>
-                        </div>
-                        <div class='panel-footer'>
-                            Tambahkan class <span class='code'>.button-disabled</span>.
-                        </div>
-                    </div>
-                </div>
-                <div class='col-2'>
-                    <div class='panel'>
-                        <div class='panel-head'>
-                            <h4>Buttons Group</h4>
-                            <p>Tombol-tombol yang dikelompokkan</p>
+                            <h5>Button Group</h5>
+                            <p>Menghilangkan margin antar tombol</p>
                         </div>
                         <div class='panel-body padding'>
                             <div class='button-group'>
@@ -129,9 +96,34 @@
                                 <h5 class='button'>Tiga</h5>
                             </div>
                         </div>
-                        <div class='panel-footer'>
-                            Tambahkan element dengan class <span class='code'>.button-group</span> untuk membungkus buttons.
+                    </div>
+                </div>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Button Group</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Tambahkan element dengan class <span class='code'>.button-group</span> untuk membungkus buttons.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-2'>
+                    <div class='panel'>
+                        <div class='panel-head'>
+                            <h5>Disabled Button</h5>
                         </div>
+                        <div class='panel-body padding'>
+                            <h5 class='button button-red button-disabled'>Disabled Button</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Disabled Button</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Tambahkan class <span class='code'>.button-disabled</span>.</p>
                     </div>
                 </div>
             </div>

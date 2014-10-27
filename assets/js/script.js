@@ -44,18 +44,6 @@ $(document).ready(function() {
     });
     $('.datepicker').datepicker();
     $('.spinner').spinner();
-
-    //HIDDEN-FORM
-    $('.reveal').click(function() {
-        var elemen = $(this).attr('data-id');
-        var col = $(this).attr('data-pushed');
-        $(elemen+' .hide').toggle({
-            effect: 'slide',
-            direction: 'right'
-        });
-        $(elemen+' .pushed').toggleClass('col-4');
-        $(elemen+' .pushed').toggleClass(col);
-    });
     
     //PANEL
     $('.panel-close').click(function() {
@@ -66,14 +54,38 @@ $(document).ready(function() {
     });
     
     //BUTTON
-    $('.button-dropdown').click(function() {
-        $(this).find('ul').toggle();
+    $('html').click(function() {
+        $('.dropdown-toggle + ul').hide();
+        $('.simple-confirm').hide();
+        
+    });
+    $('.dropdown-toggle').click(function(event) {
+        $(this).next('ul.dropdown-menu').toggle();
+        event.stopPropagation();
+        $('.dropdown-toggle').not(this).next('ul.dropdown-menu').hide();
     });
     
     //ALERT
     $('.alert p i.fa').click(function() {
         $(this).parent().parent().hide('fade',200);
     });
+    
+    //POPUP
+    $('.button-confirm').each(function() {
+        var target = $(this).attr('href');
+        $(this).removeAttr('href');
+        var simpleConfirm = $("<div class='simple-confirm'><p>Are you sure?</p><a href='"+target+"' class='button button-red button-icon'><i class='fa fa-check'></i></a><a class='button button-red button-icon'><i class='fa fa-times'></i></a></div>");
+        simpleConfirm.appendTo(this);
+    });
+    $('.button-confirm').click(function(event) {
+        $('.button-confirm').not(this).find('.simple-confirm').hide();
+        $(this).find('.simple-confirm').toggle();
+        event.stopPropagation();
+    });
+    
+//    $('.simple-confirm').on('click', 'a', function() {
+//        alert('sfdsdf');
+//    });
     
     //TOOLTIP
     $('.tipt').tooltip({
