@@ -28,6 +28,8 @@ $(document).ready(function() {
     $('.nav li.second a').click(function() {
         $(this).parent().find('.nav-second').toggleClass('nav-show', 200);
         $(this).toggleClass('selected');
+        $('.nav li.second a').not(this).removeClass('selected');
+        $('.nav li.second a').not(this).parent().find('.nav-second').removeClass('nav-show', 200);
     });
     
     //FORM
@@ -83,10 +85,6 @@ $(document).ready(function() {
         event.stopPropagation();
     });
     
-//    $('.simple-confirm').on('click', 'a', function() {
-//        alert('sfdsdf');
-//    });
-    
     //TOOLTIP
     $('.tipt').tooltip({
         tooltipClass: 'tipt',
@@ -121,17 +119,7 @@ $(document).ready(function() {
         var target= $(this).attr('data-target');
         $(this).parent().find('pre.show-code code').text($('.'+target).html());
         $(this).parent().find('pre.show-code').toggle();
-//        $('.'+target).wrapInner("<pre><code></code></pre>");
-//        $(this).addClass('close-code');
-//        $(this).removeClass('open-code');
     });
-//    $('a.close-code').click(function() {
-//        var target= $(this).attr('data-target');
-//        $('.'+target).html( $('.'+target).text() );
-//        //$('.'+target).wrapInner("<pre><code></code></pre>");
-//        $(this).removeClass('close-code');
-//        $(this).addClass('open-code');
-//    });
     
     //DATATABLES
     $('.datatable').DataTable({

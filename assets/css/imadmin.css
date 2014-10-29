@@ -551,11 +551,14 @@ th {
     float: left;
     line-height: 20px;
     padding: 0;
+    color: #444;
 }
 
 .simple-confirm .button {
     margin-left: 2px;
     float: left;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .simple-confirm:after,
@@ -1564,6 +1567,11 @@ table td {
     color: #444;
     padding: 10px 8px;
     line-height: 16px;
+}
+
+table td.nowrap {
+    width: 1%;
+    white-space: nowrap;
 }
 
 table tr:first-child td {
