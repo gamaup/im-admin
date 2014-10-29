@@ -40,6 +40,17 @@
             </div>
             <div class='row'>
                 <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Alert</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Gunakan class <code>.alert</code> untuk membuat alert.</p>
+                        <p>Tambahkan class <code>.alert-success</code>, <code>.alert-notice</code>, <code>.alert-warning</code> atau <code>.alert-error</code> untuk memilih model alert yang ingin digunakan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-2'>
                     <div class='panel'>
                         <div class='panel-head'>
                             <h5>Alert on Inside</h5>
@@ -52,11 +63,18 @@
                                 <p><b>Warning!</b> Alertnya ada didalam panel lho. <i class="fa fa-times"></i></p>
                             </div>
                         </div>
-                        <div class='panel-footer'>
-                            Cukup masukkan <span class='code'>.alert</span> ke dalam <span class='code'>.panel-body</span>.
-                        </div>
                     </div>
                 </div>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Alert on Inside</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Masukkan alert ke dalam <code>.panel-body</code></p>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
                         <div class='panel-head'>
@@ -68,20 +86,37 @@
                             <a href='#' class='button tipb' title='this is tooltip'>Bottom</a>
                             <a href='#' class='button tipl' title='this is tooltip'>Left</a>
                         </div>
-                        <div class='panel-footer'>
-                            Cukup tambahkah <span class='code'>.tipt</span>, <span class='code'>.tipr</span>, <span class='code'>.tipb</span> atau <span class='code'>.tipl</span>.
-                        </div>
+                    </div>
+                </div>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Tooltip</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Tambahkan atribut <code>title</code> pada element yang ingin ditambah tooltip.</p>
+                        <p>Tambahkan class <code>.tipt</code>, <code>.tipr</code>, <code>.tipb</code>, atau <code>.tipl</code> untuk pilihan posisi.</p>
                     </div>
                 </div>
             </div>
             <div class='row'>
                 <div class='col-2'>
                     <div class='panel'>
-                        <div class='panel-body padding'>
-                            <a href='tes' class='button button-confirm'>Tes</a>
-                            <a href='tes2' class='button button-confirm'>Tes</a>
-                            tes
+                        <div class='panel-head'>
+                            <h5>Simple Confirm</h5>
+                            <p>Peringatan 'confirm' yang akan muncul ketika mengklik sesuatu.</p>
                         </div>
+                        <div class='panel-body padding'>
+                            <a href='#' class='button button-confirm'>Click Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-2'>
+                    <div class='panel-head'>
+                        <h5>Simple Confirm</h5>
+                    </div>
+                    <div class='panel-body'>
+                        <p>Element yang akan ditambah Simple Confrim harus berupa anchor/link yang memiliki atribut <code>href</code>.</p>
+                        <p>Tambahkan class <code>.button-confirm</code>.</p>
                     </div>
                 </div>
             </div>
