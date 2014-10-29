@@ -467,12 +467,20 @@ th {
     padding: 15px 15px 0;
 }
 
+.panel-body .alert {
+    padding: 5px 10px 0;
+}
+
 .alert p {
     line-height: 50px;
     border-radius: 5px;
     font-size: 10pt;
     padding: 0 20px;
     position: relative;
+}
+
+.panel-body .alert p {
+    line-height: 30px;   
 }
 
 .alert p b {
@@ -496,6 +504,10 @@ th {
 
 .alert p i.fa:hover {
     opacity: 1;
+}
+
+.panel-body .alert p i.fa {
+    top: 9px;
 }
 
 .alert-success p {
