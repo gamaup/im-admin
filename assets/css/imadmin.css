@@ -1461,10 +1461,12 @@ main.hide {
 
 .input-row .switch {
     min-height: 25px;
+    text-align: right;
 }
 
 .input-row .switch label {
     cursor: pointer;
+    position: relative;
 }
 
 .input-row .switch input[type=radio] + label:before,
@@ -1477,6 +1479,7 @@ main.hide {
     background-color: #ccc;
     cursor: pointer;
     position: absolute;
+    left: -40px;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
 }
@@ -1496,6 +1499,7 @@ main.hide {
     background-color: #fff;
     position: absolute;
     margin: 3px;
+    left: -40px;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
 }
