@@ -1460,7 +1460,8 @@ main.hide {
 }
 
 .input-row .switch {
-    min-height: 25px;
+    min-height: 20px;
+    padding: 5px 0;
     text-align: right;
 }
 

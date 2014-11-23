@@ -194,38 +194,50 @@
                 </div>
             </div>
             <div class='row'>
-                <div class='col-2'>
+                <div class='col-1'>
                     <div class='panel'>
                         <div class='panel-head'>
                             <h4>Switch</h4>
                         </div>
                         <div class='panel-body code-switch'>
 <form>
-    <div class='input-row'>
-        <h5>Radio Based (hanya salah satu yang bisa dipilih) :</h5>
+    <div class='input-row inline'>
+        <h5>Radio 1 :</h5>
         <div class='switch'>
             <input type="radio" name='switch' id='switch1'/>
             <label for="switch1"></label>
         </div>
+    </div>
+    <div class='input-row inline'>
+        <h5>Radio 2 :</h5>
         <div class='switch'>
             <input type="radio" name='switch' id='switch2'/>
             <label for="switch2"></label>
         </div>
+    </div>
+    <div class='input-row inline'>
+        <h5>Radio 4 :</h5>
         <div class='switch'>
             <input type="radio" name='switch' id='switch3'/>
             <label for="switch3"></label>
         </div>
     </div>
-    <div class='input-row'>
-        <h5>Checkbox Based (bisa pilih beberapa) :</h5>
+    <div class='input-row inline'>
+        <h5>Checkbox 1 :</h5>
         <div class='switch'>
             <input type="checkbox" name='switch' id='switch1b'/>
             <label for="switch1b"></label>
         </div>
+    </div>
+    <div class='input-row inline'>
+        <h5>Checkbox 2 :</h5>
         <div class='switch'>
             <input type="checkbox" name='switch' id='switch2b'/>
             <label for="switch2b"></label>
         </div>
+    </div>
+    <div class='input-row inline'>
+        <h5>Checkbox 3 :</h5>
         <div class='switch'>
             <input type="checkbox" name='switch' id='switch3b'/>
             <label for="switch3b"></label>
@@ -235,14 +247,15 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-2'>
+                <div class='col-3'>
 <!--                    <div class='panel'>-->
                         <div class='panel-head'>
                             <h5>Switch</h5>
                             <p>Penjelasan</p>  
                         </div>
                         <div class='panel-body'>
-                            <p>setiap item radio/checkbox harus dibungkus dengan tag <code>&lt;div class="switch">..&lt;/div></code>, dengan aturan harus menyertakan tag <code>label</code> setelah tag <code>input</code>.</p>
+                            <p>Memiliki 2 tipe, yaitu: radio based dan checkbox based. Jika radio, maka hanya ada 1 yang bisa dipilih/dinyalakan. Sedangkan checkbox bisa beberapa.</p>
+                            <p>Setiap item radio/checkbox harus dibungkus dengan tag <code>&lt;div class="switch">..&lt;/div></code>, dengan aturan harus menyertakan tag <code>label</code> setelah tag <code>input</code>.</p>
                         </div>
                         <div class='panel-footer'>
                             <p>untuk lebih detailnya, klik:</p> <a class='button button-red open-code' data-target='code-switch'>lihat source-code</a>
