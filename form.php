@@ -193,6 +193,64 @@
 <!--                    </div>-->
                 </div>
             </div>
+            <div class='row'>
+                <div class='col-2'>
+                    <div class='panel'>
+                        <div class='panel-head'>
+                            <h4>Switch</h4>
+                        </div>
+                        <div class='panel-body code-switch'>
+<form>
+    <div class='input-row'>
+        <h5>Radio Based (hanya salah satu yang bisa dipilih) :</h5>
+        <div class='switch'>
+            <input type="radio" name='switch' id='switch1'/>
+            <label for="switch1"></label>
+        </div>
+        <div class='switch'>
+            <input type="radio" name='switch' id='switch2'/>
+            <label for="switch2"></label>
+        </div>
+        <div class='switch'>
+            <input type="radio" name='switch' id='switch3'/>
+            <label for="switch3"></label>
+        </div>
+    </div>
+    <div class='input-row'>
+        <h5>Checkbox Based (bisa pilih beberapa) :</h5>
+        <div class='switch'>
+            <input type="checkbox" name='switch' id='switch1b'/>
+            <label for="switch1b"></label>
+        </div>
+        <div class='switch'>
+            <input type="checkbox" name='switch' id='switch2b'/>
+            <label for="switch2b"></label>
+        </div>
+        <div class='switch'>
+            <input type="checkbox" name='switch' id='switch3b'/>
+            <label for="switch3b"></label>
+        </div>
+    </div>
+</form>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-2'>
+<!--                    <div class='panel'>-->
+                        <div class='panel-head'>
+                            <h5>Switch</h5>
+                            <p>Penjelasan</p>  
+                        </div>
+                        <div class='panel-body'>
+                            <p>setiap item radio/checkbox harus dibungkus dengan tag <code>&lt;div class="switch">..&lt;/div></code>, dengan aturan harus menyertakan tag <code>label</code> setelah tag <code>input</code>.</p>
+                        </div>
+                        <div class='panel-footer'>
+                            <p>untuk lebih detailnya, klik:</p> <a class='button button-red open-code' data-target='code-switch'>lihat source-code</a>
+                            <pre class='show-code'><code></code></pre>
+                        </div>
+<!--                    </div>-->
+                </div>
+            </div>
             <div class='divider'></div>
             <div class='row'>
                 <div class='col-2'>

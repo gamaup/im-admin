@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>IM Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
 	<link rel="stylesheet" type="text/css" href="assets/fa/css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css"/>
     <link rel='stylesheet' type='text/css' href='assets/css/imadmin.css'/>
